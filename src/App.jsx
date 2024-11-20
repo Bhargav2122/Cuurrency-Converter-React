@@ -13,7 +13,7 @@ const App = () => {
        backgroundImage:
          "url('https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D')",
      }}>
-       <div className="bg-[rgba(2,7,40,0.5)] p-10 rounded-[25px] backdrop-blur-[10px] border-2 border-[#cdcdcd]  max-w-[380px] sm:w-[100%] sm:p-6">
+       <div className="bg-[rgba(2,7,40,0.5)] p-10 rounded-[25px] backdrop-blur-[10px] border-2 border-[#cdcdcd]  max-w-[380px] sm:w-[80%] sm:p-6">
           <h1 className="m-2 text-[2rem] xs:text-[1.5rem]">Currency Converter</h1>
           <Converter
           amount={amount}
