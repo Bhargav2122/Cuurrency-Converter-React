@@ -53,11 +53,11 @@ const Converter = ({
      </div>
       
       <div className = "text-left m-[15px_10px]">
-         <h3 className="text-[1.65rem] xs:text-[1.25rem] ">From</h3>
+         <h3 className="text-[1.65rem] xs:text-[1.25rem] sm:text-center">From</h3>
           <Select currencyOptions = {currencyOptions} selectedCurrency = {fromCurrency} onChangeCurrency = {e => setFromCurrency(e.target.value)} />
       </div>
       <div className="currencyoption">
-         <h3 className="text-[1.65rem] xs:text-[1.25rem] ">To</h3>
+         <h3 className="text-[1.65rem] xs:text-[1.25rem] sm:text-center ">To</h3>
          <Select currencyOptions = {currencyOptions} selectedCurrency = {toCurrency} onChangeCurrency = {e => setToCurrency(e.target.value)}    
          />
       </div>
